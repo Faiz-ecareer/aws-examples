@@ -3,7 +3,7 @@ tasks:
    # random utilities
   - name: utils
     before: |
-      sudp apt-get install tree
+      sudo apt-get install tree
       
   - name: aws-cli
     env:
